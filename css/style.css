@@ -1,0 +1,214 @@
+body {
+    background-color: whitesmoke;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px;
+    
+}
+
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+
+.header-right a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.logo {
+    font-weight: bold;    
+}
+
+.header-left a {
+    overflow: auto;
+    font-size: larger;
+    float: left;
+
+}
+
+.header-left h1 {
+    float: left;
+    text-align: center;
+    
+}
+
+.header-right {
+float: right;
+text-decoration: none;
+color: black;
+padding: 12px;
+}
+
+
+#headerlogo {
+width: 50px;
+float: left;
+padding-right: 10px;
+}
+
+
+
+ul {
+    
+    width: 30%;
+    margin-left: auto;
+    text-decoration: none;
+    
+}
+
+li {
+    display: inline;
+    padding: 1%;
+    margin: 1%;
+}
+
+
+.heroImg {
+    height: 300px;
+    padding: 25px;
+}
+
+.hero-bio {
+    line-height: 170%;
+}
+
+#headshot {
+    width: 200px;
+    float: right;
+    margin-left: 5%;
+    border-radius: 100%;
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.projects {
+    background-color: #f1f1f1;
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.project-pic {
+    width: 30%;
+    height: 20%;
+    float: left;
+    margin:auto;
+    margin-left: 5%;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.projects-title {
+    font-size: larger;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem; 
+    color: black;
+}
+
+
+.project-title {
+    margin-bottom: var(--bottom-margin);
+    font-weight: bold;
+    font-size: 180%;
+    line-height: 120%;
+}
+
+.project-details {
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-text {
+    float: right;
+    text-align: left;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    line-height: 200%;
+    width: 50%;
+}
+
+.project-text a {
+    margin-top: 100%;
+}
+
+.project-link {
+    color: black;
+}
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+}
+
+footer {
+    display: flex;
+    background-color: #373738;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footerList {
+display: flex;
+text-align: center;
+vertical-align: top;
+justify-content: space-between;
+padding: 3%;
+color: white;
+margin: auto;
+}
+
+.footerList li {
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.footerList li:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: bold;
+}
+
+h1, h2, h3, p, li, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: larger;
+}
+
+h2 {
+    font-size: medium;
+}
+
